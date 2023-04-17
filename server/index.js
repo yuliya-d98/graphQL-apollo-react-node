@@ -53,6 +53,7 @@ const root = {
     })
 }
 
+// дока http://localhost:5000/graphql
 app.use('/graphql', graphqlHTTP({
     graphiql: true,
     schema: schema,
